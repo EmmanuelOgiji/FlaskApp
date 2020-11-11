@@ -8,6 +8,5 @@ class Playlist:
         return dict(
             PlaylistName=self.name,
             PlaylistId=self.id,
-            TrackCount=self.track_details.get("total"),
-            Tracklink=self.track_details.get("href")
+            TrackCount=self.track_details.get("total")
         )
