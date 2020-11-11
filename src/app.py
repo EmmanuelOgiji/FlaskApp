@@ -8,8 +8,8 @@ import logging
 
 from flask import Flask
 
-from data_objects.constants import log_level
-from routes.home import user_form, list_users_playlists
+from src.data_objects.constants import log_level
+from src.routes.home import user_form, list_users_playlists
 
 logger = logging.getLogger()
 logging.basicConfig(level=log_level)

@@ -5,9 +5,9 @@ import requests
 from flask import render_template, request
 from json2html import *
 
-from data_objects.constants import log_level
+from src.data_objects.constants import log_level
 from src.data_objects.playlist import Playlist
-from utils.spotify import authenticate_spotify
+from src.utils.spotify import authenticate_spotify
 
 logger = logging.getLogger()
 logging.basicConfig(level=log_level)
